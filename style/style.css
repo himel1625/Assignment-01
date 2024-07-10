@@ -29,6 +29,9 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.Hero_are_info img {
+  margin-bottom: 40px;
+}
 .Hero_are_info h2 {
   font-size: 48px;
   font-weight: 800;
@@ -40,4 +43,98 @@ body {
   font-weight: 400;
   color: rgb(13, 19, 33);
   text-align: center;
+}
+.btn {
+  padding: 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/* main are  */
+.main {
+  width: 1140px;
+  height: 1395px;
+
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin-top: 80px;
+}
+.mian_info {
+  width: 946px;
+  height: 1300px;
+  margin:  auto;
+  border-radius: 16px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  margin-top: 50px;
+
+}
+.main_info_are h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  margin-bottom: 37px;
+  margin-top: 60px;
+}
+.main_info_are p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+}
+.main_info_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.main_caption1,
+.main_caption2,
+.main_caption3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.main_caption_text {
+  width: 60%;
+}
+.main_caption_text h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 35px;
+  width: 60%;
+}
+.main_caption_text p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 25px;
+}
+.main_caption_text button {
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.main_info_card img {
+  width: 259.56px;
+  height: 217.01px;
 }
