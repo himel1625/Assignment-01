@@ -242,7 +242,8 @@ body {
 }
 /* Support are   */
 .need_Support {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url('../assets/handshake.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../assets/handshake.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -273,8 +274,7 @@ body {
   opacity: 0.7;
   margin-top: 10px;
 }
-.need_Support_input
-{
+.need_Support_input {
   margin-top: 50px;
   display: inline;
 }
@@ -300,4 +300,25 @@ body {
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+}
+/* footer are  */
+footer {
+  height: 100px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 50px;
+}
+.footer_caption p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer_logo
+{
+  display: flex;
+  gap: 30px;
 }
